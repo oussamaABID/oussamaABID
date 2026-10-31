@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="196" height="32" viewBox="0 0 196 32" role="img" aria-label="Krizaka team">
+<title>Krizaka team</title>
+<path d="M10 1H195V31H10L1 22V10Z" fill="hsl(147 11% 20%)" stroke="hsl(145 9% 38%)"/>
+<circle cx="12" cy="16" r="3.5" fill="none" stroke="hsl(145 9% 38%)"/>
+<g transform="translate(24 5) scale(0.085) translate(-72.32 -68.32) translate(20 20)">
+<path d="M259.7,134 L259.7,226 L180,272 L100.3,226 L100.3,134 L180,88 L212,106.5" fill="none" stroke="hsl(105 17% 92%)" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="259.7" cy="134" r="20" fill="hsl(206 58% 72%)"/><circle cx="180" cy="180" r="26" fill="hsl(206 58% 72%)"/>
+</g>
+<text x="54" y="21" font-family="'Courier Prime','Courier New',monospace" font-size="14" fill="hsl(105 17% 92%)">krizaka · team</text>
+</svg>

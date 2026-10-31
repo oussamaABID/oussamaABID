@@ -1,0 +1,36 @@
+# Redraws assets/stats-{dark,light}.svg once a day from this account's public contributions.
+# Least privilege: nothing at the workflow level, `contents: write` for the one job that commits
+# the two SVGs. Actions pinned by commit SHA. No third-party service, no visitor tracking.
+name: notebook stats
+
+on:
+  schedule:
+    - cron: "17 6 * * *"
+  workflow_dispatch:
+
+permissions: {}
+
+concurrency:
+  group: notebook-stats
+  cancel-in-progress: true
+
+jobs:
+  draw:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - name: Draw the log
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: node .github/scripts/notebook-stats.mjs
+      - name: Commit if it changed
+        run: |
+          git add assets/stats-dark.svg assets/stats-light.svg
+          if git diff --cached --quiet; then echo "unchanged"; exit 0; fi
+          git -c user.name="github-actions[bot]" \
+              -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+              commit -m "chore: redraw the notebook stats"
+          git push
