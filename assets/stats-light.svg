@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-labelledby="t">
-<title id="t">9 307 public contributions in the last 26 weeks</title>
+<title id="t">9 311 public contributions in the last 26 weeks</title>
 <style>
 .mono{font-family:"Courier Prime","Courier New",monospace}
 .tick{stroke:hsl(208 54% 33%);stroke-width:10;stroke-linecap:butt;transform-box:fill-box;transform-origin:bottom;animation:grow .6s cubic-bezier(.6,0,.2,1) both}
@@ -38,5 +38,5 @@
 <path class="tick" style="animation-delay:0.92s" d="M1010 104V46"/>
 <path class="tick" style="animation-delay:0.96s" d="M1048 104V37"/>
 <path class="tick" style="animation-delay:1.00s" d="M1086 104V92"/>
-<text class="mono" x="120" y="126" font-size="14" fill="hsl(5 62% 40%)">fig. 2 · public contributions, one stroke a week, last 26 weeks · 9 307 in all</text>
+<text class="mono" x="120" y="126" font-size="14" fill="hsl(5 62% 40%)">fig. 2 · public contributions, one stroke a week, last 26 weeks · 9 311 in all</text>
 </svg>
