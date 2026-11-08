@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-labelledby="t">
-<title id="t">8 935 public contributions in the last 26 weeks</title>
+<title id="t">8 991 public contributions in the last 26 weeks</title>
 <style>
 .mono{font-family:"Courier Prime","Courier New",monospace}
 .tick{stroke:hsl(208 54% 33%);stroke-width:10;stroke-linecap:butt;transform-box:fill-box;transform-origin:bottom;animation:grow .6s cubic-bezier(.6,0,.2,1) both}
@@ -12,12 +12,12 @@
 <path d="M96 8V134" stroke="hsl(5 62% 40%)" stroke-width="1.5"/>
 <text class="mono" x="24" y="44" font-size="15" fill="hsl(5 62% 40%)">§ log</text>
 <path d="M120 104H1140" stroke="hsl(212 22% 32%)" stroke-width="1"/>
-<path class="tick" style="animation-delay:0.00s" d="M136 104V100"/>
+<path class="tick" style="animation-delay:0.00s" d="M136 104V102"/>
 <path class="tick" style="animation-delay:0.04s" d="M174 104V102"/>
-<path class="tick" style="animation-delay:0.08s" d="M212 104V102"/>
-<path class="tick" style="animation-delay:0.12s" d="M250 104V100"/>
-<path class="tick" style="animation-delay:0.16s" d="M288 104V102"/>
-<path class="tick" style="animation-delay:0.20s" d="M326 104V100"/>
+<path class="tick" style="animation-delay:0.08s" d="M212 104V100"/>
+<path class="tick" style="animation-delay:0.12s" d="M250 104V102"/>
+<path class="tick" style="animation-delay:0.16s" d="M288 104V100"/>
+<path class="tick" style="animation-delay:0.20s" d="M326 104V102"/>
 <path class="tick" style="animation-delay:0.24s" d="M364 104V102"/>
 <path class="tick" style="animation-delay:0.28s" d="M402 104V102"/>
 <path class="tick" style="animation-delay:0.32s" d="M440 104V102"/>
@@ -29,14 +29,14 @@
 <path class="tick" style="animation-delay:0.56s" d="M668 104V102"/>
 <path class="tick" style="animation-delay:0.60s" d="M706 104V102"/>
 <path class="tick" style="animation-delay:0.64s" d="M744 104V102"/>
-<path class="tick" style="animation-delay:0.68s" d="M782 104V102"/>
+<path class="tick" style="animation-delay:0.68s" d="M782 104V100"/>
 <path class="tick" style="animation-delay:0.72s" d="M820 104V100"/>
-<path class="tick" style="animation-delay:0.76s" d="M858 104V100"/>
-<path class="tick" style="animation-delay:0.80s" d="M896 104V99"/>
-<path class="tick" style="animation-delay:0.84s" d="M934 104V88"/>
-<path class="tick" style="animation-delay:0.88s" d="M972 104V24"/>
-<path class="tick" style="animation-delay:0.92s" d="M1010 104V46"/>
-<path class="tick" style="animation-delay:0.96s" d="M1048 104V41"/>
-<path class="tick" style="animation-delay:1.00s" d="M1086 104V88"/>
-<text class="mono" x="120" y="126" font-size="14" fill="hsl(5 62% 40%)">fig. 2 · public contributions, one stroke a week, last 26 weeks · 8 935 in all</text>
+<path class="tick" style="animation-delay:0.76s" d="M858 104V99"/>
+<path class="tick" style="animation-delay:0.80s" d="M896 104V88"/>
+<path class="tick" style="animation-delay:0.84s" d="M934 104V24"/>
+<path class="tick" style="animation-delay:0.88s" d="M972 104V46"/>
+<path class="tick" style="animation-delay:0.92s" d="M1010 104V41"/>
+<path class="tick" style="animation-delay:0.96s" d="M1048 104V87"/>
+<path class="tick" style="animation-delay:1.00s" d="M1086 104V100"/>
+<text class="mono" x="120" y="126" font-size="14" fill="hsl(5 62% 40%)">fig. 2 · public contributions, one stroke a week, last 26 weeks · 8 991 in all</text>
 </svg>
